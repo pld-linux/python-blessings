@@ -30,7 +30,6 @@ BuildRequires:	python3-nose
 BuildRequires:	python3-setuptools
 BuildRequires:	python3-six
 %endif
-Requires:	python-six
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -41,7 +40,6 @@ styling, and positioning in Python.
 %package -n python3-%{module}
 Summary:	Python 3 library for terminal coloring, styling, and positioning
 Group:		Libraries/Python
-Requires:	python3-six
 
 %description -n python3-%{module}
 Blessings is a thin, practical wrapper around terminal coloring,
