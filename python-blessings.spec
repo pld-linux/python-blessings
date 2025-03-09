@@ -47,8 +47,8 @@ styling, and positioning in Python.
 
 %prep
 %setup -q -n %{pypi_name}-%{version}
-%patch1 -p1
-%patch2 -p1
+%patch -P 1 -p1
+%patch -P 2 -p1
 rm -r blessings.egg-info
 
 %build
