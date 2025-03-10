@@ -10,7 +10,7 @@
 Summary:	Python library for terminal coloring, styling, and positioning
 Name:		python-%{module}
 Version:	1.7
-Release:	5
+Release:	6
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/b/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
